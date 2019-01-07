@@ -1,0 +1,30 @@
+Buildfile: C:\Tools\jasperreports-6.7.0\demo\samples\barbecue\build.xml
+Shows how barcodes could be included in reports using the Barbecue component.
+Main targets:
+
+ clean          Deletes all the generated files.
+ compile        Compiles the XML report design and produces the .jasper file.
+ csv            Generates a CSV version of the report by converting the .jrprint file.
+ decompile      Decompiles a .jasper file into a .jrxml file.
+ docx           Generates a DOCX version of the report by converting the .jrprint file.
+ fill           Fills the compiled report design with data and produces the .jrprint file.
+ html           Generates an HTML version of the report by converting the .jrprint file.
+ javac          Compiles the java source files of the test application.
+ ods            Generates an ODS version of the report by converting the .jrprint file.
+ odt            Generates an ODT version of the report by converting the .jrprint file.
+ pdf            Generates a PDF version of the report by converting the .jrprint file.
+ pptx           Generates a PPTX version of the report by converting the .jrprint file.
+ print          Sends the report in the .jrprint file to the printer.
+ rtf            Generates an RTF version of the report by converting the .jrprint file.
+ test           Runs the sample.
+ view           Launches the report viewer to preview the report stored in the .jrprint file.
+ viewDesign     Launches the design viewer to preview the compiled report design.
+ viewDesignXml  Launches the design viewer to preview the XML report design.
+ viewXml        Launches the report viewer to preview the generated report stored in an XML file.
+ writeApi       Generates a .java version of the report by converting the .jrxml file.
+ writeApiXml    Generates a .jrxml version of the report by executing the API version of the report design.
+ xls            Generates an XLS version of the report by converting the .jrprint file using the POI library.
+ xlsx           Generates an XLSX version of the report by converting the .jrprint file.
+ xml            Generates an XML version of the report by converting the .jrprint file.
+ xmlEmbed       Generates an XML version of the report by converting the .jrprint file.
+Default target: test
